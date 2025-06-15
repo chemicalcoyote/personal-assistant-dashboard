@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 exports.handler = async (event) => {
   try {
     const { prompt } = JSON.parse(event.body);
